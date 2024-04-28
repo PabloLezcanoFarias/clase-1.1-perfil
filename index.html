@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío Práctico 1</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Mi perfil</h1>
+  </header>
+
+  <main>
+    <img src="./Perfil.jpg" alt="Mi Foto de perfil" height="10%" width="10%">
+
+  <ul>
+    <li><strong>Edad: 32 años</strong></li>
+    <li><strong>Nombre: Pablo</strong></li>
+    <li><strong>Apellido: Lezcano Farias</strong></li>
+    <li><strong>Mail: <a href="#">devpablolezcanofarias@gmail.com</a></strong></li>
+  </ul>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquam quidem ipsam tempore quibusdam provident labore autem ratione totam? Reiciendis dolorem repellat fugit in odio adipisci hic voluptatem aliquam vero.</p>
+  </main>
+
+  <section>
+    <h2>Ingrese sus datos</h2>
+    <form>
+      <div>
+       <label for="nombre">Nombre</label>
+       <input type="text" id="nombre" placeholder="Tim Berners-Lee" required>
+      </div>
+      <br>
+
+      <div>
+       <label for="edad">Edad</label>
+       <input type="number" id="edad" placeholder="0" min="0" max="99" required>
+      </div>
+      <br>
+
+      <div>
+       <label for="telefono">Teléfono</label>
+       <input type="tel" id="telefono" placeholder="11 1234-5678" required>
+      </div>
+      <br>
+
+      <div>
+       <label for="correo">Correo</label>
+       <input type="mail" id="correo" placeholder="correo@gmail.com" required>
+      </div>
+      <br>
+
+      <div>
+       <label for="password">Contraseña</label>
+       <input type="password" id="password" placeholder="" required>
+      </div>
+      <br>
+
+      <div>
+       <h2>Por favor, complete el siguiente formulario</h2>
+       <h3>Juego de cartas que juega actualmente.</h3>
+       <label for="yugi">Yu-Gi-Oh!</label>
+       <input type="radio" id="yugi" name="tcg" value="yugi">
+       <br>
+
+       <label for="magic">Magic The Gathering</label>
+       <input type="radio" id="magic" name="tcg" value="magic">
+       <br>
+
+       <label for="vanguard">Vanguard</label>
+       <input type="radio" id="vanguard" name="tcg" value="vanguard">
+       <br>
+      </div>
+
+    <div>
+      <h2>¿Cual de las siguientes opciones cree que es mas importante en un juego de cartas?, selecione la opcion que crea mas relevante.</h2>
+      <select name="menu_de_formulario" id="menu_de_formulario">
+        <option value="economico">Debe ser accesible economicamente</option>
+        <option value="tiempo">Sus partidas no deben durar demasiado</option>
+        <option value="comprension">Debe ser facil de entender y jugar</option>
+      </select>
+    </div>
+
+    <div>
+      <h2>Cuéntanos que otras caracteristicas te gustaria ver en un juego de cartas.</h2>
+      <textarea name="opinion_usuario" id="opinion_usuario" cols="80" rows="10" placeholder="Ingrese su mensaje."></textarea>
+    </div>
+
+     <div>
+       <h2>¿De que manera le gustaria ser contactado? Seleccione una o varias opciones.</h2>
+       <label for="contactar_por_correo"><b>Email</b></label>
+       <input type="checkbox" id="contactar_por_correo" name="contactar_por_correo" checked>
+       <br>
+
+       <label for="contactar_por_telefono"><b>Telefono</b></label>
+       <input type="checkbox" id="contactar_por_telefono" name="contactar_por_telefono">
+       <br>
+      
+       <label for="contactar_por_whatsapp"><b>Mensaje a traves de WhatsApp</b></label>
+       <input type="checkbox" id="contactar_por_whatsapp" name="contactar_por_whatsapp" required>
+       <br>
+
+       <h2>Terminos y condiciones</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi at iusto, sequi, dolorum quisquam minus recusandae dignissimos sit error labore rem nam a vel eos facilis laudantium laborum odit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam ea eum saepe placeat asperiores repudiandae obcaecati dolore corporis, nostrum exercitationem a impedit eligendi dicta quas veritatis officia. Iusto, tenetur.</vitae></p>
+       <label for="terminos"><b>Acepto los terminos y condiciones, asi como también declaro haber leido los mismos.</b></label>
+       <input type="checkbox" id="terminos" name="terminos" required>
+       <br>
+     </div>
+
+     <div>
+      <input type="submit" value="Enviar" name="enviar_formulario">
+     </div>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>Creado por Pablo Lezcano Farias 2024.</p>
+    <ul>
+      <li><a href="#">devpablolezcanofarias@gmail.com</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
