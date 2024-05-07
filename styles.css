@@ -8,12 +8,20 @@
   font-style: normal;
 } */
 
-
-.foto-perfil {
-  width: 10%;
-  height: 10%;
-  border-radius: 50%;
+/* No está funcionando el border-radius */
+.contenedor-perfil {
+  border-radius: 50px;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
 }
+
+.contenedor-perfil img {
+  width: auto;
+  height: auto;
+}
+
+
 
 *{
   font-family: "Roboto", sans-serif; 
@@ -24,6 +32,48 @@ a{
 }
 
 body{
-  background-color: grey;
+  /* background-color: grey; */
+  text-align: center;
+  background-image: url(./images/fondo.png);
+  background-size: cover;
+}
+
+.contenedor-datos{
+  border: 5px solid;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contenedor-datos div{
+  text-align: justify
+}
+
+.contenedor-input-edad{
+  display: inline;
+  margin-left: 46px;
+}
+
+.contenedor-input-nombre{
+  display: inline;
+  margin-left: 25px;
+}
+
+.contenedor-input-telefono{
+  display: inline;
+  margin-left: 20px;
+}
+
+.contenedor-input-correo{
+  display: inline;
+  margin-left: 34px;
+}
+
+.contenedor-input-contraseña{
+  display: inline;
+  margin-left: 0px;
   text-align: center;
 }
+
+
