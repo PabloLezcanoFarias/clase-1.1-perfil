@@ -32,17 +32,18 @@ a{
 }
 
 body{
-  /* background-color: grey; */
   text-align: center;
   background-image: url(./images/fondo.png);
   background-size: cover;
 }
 
 .contenedor-datos{
-  border: 5px solid;
+  /* border: 5px solid; */
   border-radius: 50px;
-  display: inline-block;
   padding: 15px;
+  width: 246px;
+  margin: auto;
+  margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -75,5 +76,72 @@ body{
   margin-left: 0px;
   text-align: center;
 }
+
+/* Contenedores de formulario */
+
+.contenedor-formulario{
+  /* border: 5px solid; */
+  border-radius: 50px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 12px;
+}
+
+/* .contenedor-formulario h2{
+  text-align: center;
+} */
+
+.contenedor-tcg{
+  display: inline-block;
+  width: 100px;
+}
+
+.contenedor-input-tcg div{
+  /* display: inline-block; */
+  text-align: justify;
+  padding: 5px;
+  margin-left: 13%;
+ 
+}
+
+.contenedor-relevante{
+  display: inline-block;
+  width: 500px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.contenedor-relevante h2{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contenedor-caja-mensaje{
+  /* width: 500px; */
+}
+
+.contenedor-caja-mensaje h2{
+  text-align: center;
+  width: 550px;
+  margin-left: 200px%;
+}
+
+.contenedor-contacto{
+  margin-bottom: 20px;
+}
+
+.contenedor-contacto h2{
+  text-align: center;
+  width: 500px;
+  margin-left: 25px;
+}
+
+.contenedor-relevante select{
+  margin-left: 10%;
+}
+
+
+
+
 
 
